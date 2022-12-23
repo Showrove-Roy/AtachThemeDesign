@@ -11,7 +11,8 @@
       type="image/x-icon" />
     <title>Home - Atach</title>
   </head>
-  <body class="max-w-7xl mx-auto">
+  <body class="max-w-7xl mx-auto px-2">
+    <!-- Navbar  -->
     <header>
       <div class="navbar bg-base-100 fixed top-0 z-50">
         <div class="navbar-start">
@@ -53,7 +54,7 @@
               </li>
             </ul>
           </div>
-          <a href="/dist/index.html" class="btn btn-ghost normal-case text-xl">
+          <a href="/dist/index.html" class="btn btn-ghost md:px-0">
             <!-- Logo -->
             <img
               src="../assets/icons/atach_logo.png"
@@ -82,14 +83,85 @@
         </div>
 
         <div class="navbar-end">
-          <a href="#" class="mr-10 hidden md:block">Login</a>
-          <a
-            class="btn capitalize bg-primary text-white hover:bg-[#003e9b] scale-90 md:scale-100"
-            >Get Started free</a
+          <ul class="menu menu-horizontal px-1 hidden md:block">
+            <li>
+              <a href="#" class="lg:mr-10">Login</a>
+            </li>
+          </ul>
+
+          <a class="at-btn px-3 md:mx-6 scale-75 lg:scale-100 mr-2"
+            >Get Started Free</a
           >
         </div>
       </div>
     </header>
-    <main></main>
+
+    <!-- Main section start -->
+    <main>
+      <!-- Hero section start -->
+      <section class="hero min-h-screen bg-base-200 py-20">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="w-5/12">
+            <img
+              src="../assets/images/Hero image.png"
+              class="max-w-lg mx-auto" />
+          </div>
+          <div class="w-7/12">
+            <h1 class="">
+              How to be more productive in a simple, yet effective way
+            </h1>
+            <p class="paragraphSM w-[515px] mt-8 mb-10">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut
+              id nisl tellus rhoncus, imperdiet consequat ornare. Nunc, cursus
+              eget dui, ultricies lacus.
+            </p>
+
+            <div class="flex gap-10">
+              <button class="at-btn-outline">
+                <img src="../assets/icons/apple_play.png" alt="" />
+              </button>
+              <button class="at-btn-outline">
+                <img src="../assets/icons/google_play.png" alt="" />
+              </button>
+            </div>
+
+            <div class="flex mt-[50px] gap-6">
+              <div class="avatar-group -space-x-6">
+                <div class="avatar border-[1.5px]">
+                  <div class="w-12">
+                    <img src="https://placeimg.com/192/192/people" />
+                  </div>
+                </div>
+                <div class="avatar border-[1.5px]">
+                  <div class="w-12">
+                    <img src="https://placeimg.com/192/192/people" />
+                  </div>
+                </div>
+                <div class="avatar border-[1.5px]">
+                  <div class="w-12">
+                    <img src="https://placeimg.com/192/192/people" />
+                  </div>
+                </div>
+                <div class="avatar border-[1.5px]">
+                  <div class="w-12">
+                    <img src="https://placeimg.com/192/192/people" />
+                  </div>
+                </div>
+                <div class="avatar placeholder border-[1.5px]">
+                  <div class="w-12 bg-[#F9F5FF]">
+                    <span class="text-[#7F56D9] text-base font-medium">+5</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6 class="text-black">12M+</h6>
+                <p class="paragraphSM">Used the app</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero section end -->
+    </main>
   </body>
 </html>

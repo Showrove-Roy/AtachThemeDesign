@@ -10,7 +10,6 @@ module.exports = {
         atach: {
           primary: "#0066FF",
           secondary: "#1F2029",
-
           accent: "#85868D",
           neutral: "#F4F6F9",
           "neutral-100": "#E5F0F4",

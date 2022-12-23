@@ -1,3 +1,104 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+@layer base {
+  html {
+    font-family: "Space Grotesk", sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 110%;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 120%;
+  }
+  h3 {
+    font-size: 36px;
+    line-height: 120%;
+  }
+  h4 {
+    font-size: 28px;
+    line-height: 140%;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 150%;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
+
+@layer components {
+  .paragraphSM {
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .paragraphLG {
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .label-txt {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .rich-txt {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .link-txt {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .at-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    gap: 10px;
+    background: #0066ff;
+    border-radius: 12px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .at-btn:hover {
+    background: #0048b5;
+  }
+  .at-btn-outline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+    border: 2px solid #e0e4fc;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  .at-btn-outline:hover {
+    color: #ffffff;
+    background: #1d2130;
+    border: 2px solid #1d2130;
+  }
+}
