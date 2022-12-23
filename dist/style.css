@@ -1501,6 +1501,16 @@ h6 {
   margin-right: auto;
 }
 
+.mx-\[352px\] {
+  margin-left: 352px;
+  margin-right: 352px;
+}
+
+.mx-\[300px\] {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -1591,6 +1601,18 @@ h6 {
   flex-direction: column;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -1675,6 +1697,15 @@ h6 {
   padding-bottom: 5rem;
 }
 
+.px-\[352px\] {
+  padding-left: 352px;
+  padding-right: 352px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1697,6 +1728,10 @@ h6 {
   font-weight: 500;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1710,6 +1745,11 @@ h6 {
 .text-\[\#7F56D9\] {
   --tw-text-opacity: 1;
   color: rgb(127 86 217 / var(--tw-text-opacity));
+}
+
+.text-\[\#667085\] {
+  --tw-text-opacity: 1;
+  color: rgb(102 112 133 / var(--tw-text-opacity));
 }
 
 .shadow {
