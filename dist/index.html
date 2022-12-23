@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-theme="atach" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/atach_icon.jpg"
+      type="image/x-icon" />
+    <title>Home - Atach</title>
   </head>
   <body class="max-w-7xl mx-auto">
     <header>
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 fixed top-0 z-50">
         <div class="navbar-start">
           <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <label tabindex="0" class="btn btn-ghost md:hidden p-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -29,61 +33,63 @@
             <ul
               tabindex="0"
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Item 1</a></li>
-              <li tabindex="0">
-                <a class="justify-between">
-                  Parent
-                  <svg
-                    class="fill-current"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24">
-                    <path
-                      d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                  </svg>
-                </a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">Home</a>
               </li>
-              <li><a>Item 3</a></li>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">Pages</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-black font-semibold">Login</a>
+              </li>
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <a href="/dist/index.html" class="btn btn-ghost normal-case text-xl">
+            <!-- Logo -->
+            <img
+              src="../assets/icons/atach_logo.png"
+              class="md:w-28 w-20"
+              alt="" />
+          </a>
+          <div class="hidden md:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a href="#" class="text-lg text-black font-normal">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">Pricing</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">Blog</a>
+              </li>
+              <li>
+                <a href="#" class="text-lg text-black font-normal">Pages</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
-            <li tabindex="0">
-              <a>
-                Parent
-                <svg
-                  class="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24">
-                  <path
-                    d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
-              </a>
-              <ul class="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </li>
-            <li><a>Item 3</a></li>
-          </ul>
-        </div>
+
         <div class="navbar-end">
-          <a class="btn">Get started</a>
+          <a href="#" class="mr-10 hidden md:block">Login</a>
+          <a
+            class="btn capitalize bg-primary text-white hover:bg-[#003e9b] scale-90 md:scale-100"
+            >Get Started free</a
+          >
         </div>
       </div>
     </header>
-    <main>
-      <h1 class="text-primary">Hi</h1>
-    </main>
+    <main></main>
   </body>
 </html>

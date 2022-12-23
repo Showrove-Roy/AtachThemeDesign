@@ -8,23 +8,14 @@ module.exports = {
     themes: [
       {
         atach: {
-          primary: "#D926A9",
+          primary: "#0066FF",
+          secondary: "#1F2029",
 
-          secondary: "#D926A9",
-
-          accent: "#1FB2A6",
-
-          neutral: "#ffffff",
-
+          accent: "#85868D",
+          neutral: "#F4F6F9",
+          "neutral-100": "#E5F0F4",
           "base-100": "#ffffff",
-
-          info: "#3ABFF8",
-
-          success: "#36D399",
-
-          warning: "#FBBD23",
-
-          error: "#F87272",
+          "base-200": "#FAFCFF",
         },
       },
     ],
