@@ -1834,6 +1834,10 @@ h6 {
   width: 45%;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -2016,6 +2020,16 @@ h6 {
   padding-bottom: 1.5rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -2026,6 +2040,10 @@ h6 {
 
 .pr-8 {
   padding-right: 2rem;
+}
+
+.pb-28 {
+  padding-bottom: 7rem;
 }
 
 .text-center {
