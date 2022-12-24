@@ -1662,6 +1662,12 @@ h6 {
   line-height: 150%;
 }
 
+.rich-txt {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+}
+
 .at-btn {
   display: flex;
   flex-direction: row;
@@ -1721,6 +1727,11 @@ h6 {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mt-3 {
@@ -1811,6 +1822,18 @@ h6 {
   width: 4rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-\[55\%\] {
+  width: 55%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -1872,6 +1895,44 @@ h6 {
 
 .gap-12 {
   gap: 3rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+}
+
+.gap-x-14 {
+  -moz-column-gap: 3.5rem;
+       column-gap: 3.5rem;
+}
+
+.gap-x-\[60px\] {
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+
+.gap-x-\[70px\] {
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+}
+
+.gap-x-\[800px\] {
+  -moz-column-gap: 800px;
+       column-gap: 800px;
+}
+
+.gap-x-\[80px\] {
+  -moz-column-gap: 80px;
+       column-gap: 80px;
 }
 
 .-space-x-6 > :not([hidden]) ~ :not([hidden]) {
