@@ -16,6 +16,7 @@
   h5,
   h6 {
     font-weight: 700;
+    line-height: 120% !important;
   }
 
   h1 {
@@ -47,6 +48,7 @@
     font-size: 20px;
     line-height: 150%;
   }
+
 }
 
 @layer components {
