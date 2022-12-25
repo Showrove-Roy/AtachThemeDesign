@@ -2218,6 +2218,10 @@ h1,
   width: 24rem;
 }
 
+.w-10 {
+  width: 2.5rem;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -2489,6 +2493,11 @@ h1,
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-normal {
   font-weight: 400;
 }
@@ -2644,6 +2653,10 @@ h1,
     width: 58.333333%;
   }
 
+  .md\:w-20 {
+    width: 5rem;
+  }
+
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
   }
@@ -2666,6 +2679,11 @@ h1,
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .md\:paragraphSM {
+    font-size: 18px;
+    line-height: 150%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -2675,6 +2693,11 @@ h1,
 
   .lg\:w-\[515px\] {
     width: 515px;
+  }
+
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .lg\:scale-100 {
