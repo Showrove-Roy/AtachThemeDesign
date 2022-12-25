@@ -101,4 +101,7 @@
     background: #1d2130;
     border: 2px solid #1d2130;
   }
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  }
 }
