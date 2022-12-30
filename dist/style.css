@@ -2835,6 +2835,10 @@ h1,
   width: 24rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -2883,6 +2887,10 @@ h1,
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -2984,6 +2992,20 @@ h1,
 
 .gap-y-20 {
   row-gap: 5rem;
+}
+
+.gap-x-32 {
+  -moz-column-gap: 8rem;
+       column-gap: 8rem;
+}
+
+.gap-x-20 {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+
+.gap-y-12 {
+  row-gap: 3rem;
 }
 
 .-space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -3239,6 +3261,11 @@ h1,
   padding-bottom: 6px;
 }
 
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -3285,6 +3312,18 @@ h1,
 
 .pt-12 {
   padding-top: 3rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
 }
 
 .text-center {
@@ -3861,6 +3900,14 @@ h1,
 
   .lg\:pt-28 {
     padding-top: 7rem;
+  }
+
+  .lg\:pt-36 {
+    padding-top: 9rem;
+  }
+
+  .lg\:pt-48 {
+    padding-top: 12rem;
   }
 
   .lg\:text-\[52px\] {
