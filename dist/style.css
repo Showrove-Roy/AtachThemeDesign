@@ -2039,6 +2039,13 @@ h1,
   color: hsl(var(--bc) / var(--tw-text-opacity));
 }
 
+.label-text-alt {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: hsl(var(--bc) / var(--tw-text-opacity));
+}
+
 .label a:hover {
   --tw-text-opacity: 1;
   color: hsl(var(--bc) / var(--tw-text-opacity));
@@ -2076,6 +2083,16 @@ h1,
   .input[disabled]::placeholder {
   color: hsl(var(--bc) / var(--tw-placeholder-opacity));
   --tw-placeholder-opacity: 0.2;
+}
+
+.link-primary {
+  --tw-text-opacity: 1;
+  color: hsl(var(--p) / var(--tw-text-opacity));
+}
+
+.link-primary:hover {
+  --tw-text-opacity: 1;
+  color: hsl(var(--pf, var(--p)) / var(--tw-text-opacity));
 }
 
 .link:focus {
@@ -3388,6 +3405,11 @@ h1,
   background-color: rgb(245 249 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#F8FAFC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
 .p-0 {
   padding: 0px;
 }
@@ -3516,6 +3538,11 @@ h1,
 .py-\[6px\] {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+
+.py-28 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .pt-20 {
@@ -3730,6 +3757,16 @@ h1,
 .text-\[\#344054\] {
   --tw-text-opacity: 1;
   color: rgb(52 64 84 / var(--tw-text-opacity));
+}
+
+.text-\[\#090914\] {
+  --tw-text-opacity: 1;
+  color: rgb(9 9 20 / var(--tw-text-opacity));
+}
+
+.text-\[\#52525B\] {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 91 / var(--tw-text-opacity));
 }
 
 .opacity-100 {
