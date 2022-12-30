@@ -85,40 +85,56 @@
     </header>
     <main>
         <section class="px-3 md:px-5 py-28">
-            <form
+            <div
                 class="max-w-md p-4 shadow-[0px_4px_8px_-2px_rgba(16,24,40,0.1),0px_2px_4px_-2px_rgba(16,24,40,0.06)] mx-auto">
-                <h3 class="lg:text-4xl md:text-3xl sm:text-2xl text-xl text-[#090914]">
-                    Login
-                </h3>
-                <p class="text-lg text-[#52525B] pb-6">
-                    Welcome Back, Please login <br />
-                    to your account.
-                </p>
-                <div class="form-control w-full">
-                    <label class="label">
-                        <span class="label-text text-[#344054] text-base font-medium">Email address</span>
-                    </label>
-                    <input type="email" required class="input input-bordered w-full rounded-lg bg-[#F8FAFC]" />
-                </div>
-
-                <div class="form-control w-full">
-                    <label class="label">
-                        <span class="label-text text-[#344054] text-base font-medium">Password</span>
-                    </label>
-                    <input type="password" required class="input input-bordered w-full rounded-lg bg-[#F8FAFC]" />
-                </div>
-
-                <div class="flex items-center justify-between  pt-3 pb-6">
-                    <div class="form-control">
-                        <label class="label cursor-pointer justify-start">
-                            <input type="checkbox" class="checkbox checkbox-primary" />
-                            <span class="label-text text-[#344054] text-base font-medium pl-3">Remember me </span>
+                <form>
+                    <h3 class="lg:text-4xl md:text-3xl sm:text-2xl text-xl text-[#090914]">
+                        Login
+                    </h3>
+                    <p class="text-lg text-[#52525B] pb-6">
+                        Welcome Back, Please login <br />
+                        to your account.
+                    </p>
+                    <div class="form-control w-full">
+                        <label class="label">
+                            <span class="label-text text-[#344054] text-base font-medium">Email address</span>
                         </label>
+                        <input type="email" required class="input input-bordered w-full rounded-lg bg-[#F8FAFC]" />
                     </div>
-                    <a class="link link-hover link-primary">Forgot password?</a>
-                </div>
-                <button class="btn btn-primary w-full">Login</button>
-            </form>
+
+                    <div class="form-control w-full">
+                        <label class="label">
+                            <span class="label-text text-[#344054] text-base font-medium">Password</span>
+                        </label>
+                        <input type="password" required class="input input-bordered w-full rounded-lg bg-[#F8FAFC]" />
+                    </div>
+
+                    <div class="flex items-center justify-between pt-3 pb-6">
+                        <div class="form-control">
+                            <label class="label cursor-pointer justify-start">
+                                <input type="checkbox" class="checkbox checkbox-primary" />
+                                <span class="label-text text-[#344054] text-base font-medium pl-3">Remember me
+                                </span>
+                            </label>
+                        </div>
+                        <a class="link link-hover link-primary">Forgot password?</a>
+                    </div>
+                    <button class="btn btn-primary w-full">Login</button>
+                </form>
+                <div class="divider">OR</div>
+                <button
+                    class="btn btn-outline w-full bg-[#F8FAFC] border-[#CBD5E1] hover:border-[#c2d9fa] hover:bg-[#c2d9fa] hover:text-[#616161] text-[#737373] text-base capitalize font-normal my-2">
+                    <img class="mr-6" src="../assets/icons/social icon/google _ color.svg" alt="">
+                    Connect with Google
+                </button>
+                <button
+                    class="btn btn-outline w-full bg-[#F8FAFC] border-[#CBD5E1] hover:border-[#c2d9fa] hover:bg-[#c2d9fa] hover:text-[#616161] text-[#737373] text-base capitalize font-normal my-2">
+                    <img class="mr-6" src="../assets/icons/social icon/facebook color.svg" alt="">
+                    Connect with Facebook
+                </button>
+                <p class="text-[#64748B] text-base text-center py-2">Don't have any account? <a
+                        class="link link-hover link-primary">Create account</a></p>
+            </div>
         </section>
     </main>
     <!-- footer -->
