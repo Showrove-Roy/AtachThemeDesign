@@ -14,7 +14,7 @@
 
 <body class="max-w-7xl mx-auto">
     <!-- Navbar  -->
-    <header>
+    <header class="max-w-7xl">
         <div class="navbar bg-base-100 fixed top-0 z-50 px-3 md:px-5 max-w-7xl mx-auto">
             <div class="navbar-start">
                 <div class="dropdown">
@@ -28,42 +28,42 @@
                     <ul tabindex="0"
                         class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li>
-                            <a href="/dist/index.html" class="text-lg text-black font-normal">Home</a>
+                            <a href="/index.html" class="text-lg text-black font-normal">Home</a>
                         </li>
                         <li>
-                            <a href="about.html" class="text-lg text-black font-normal">About</a>
+                            <a href="/pages/about.html" class="text-lg text-black font-normal">About</a>
                         </li>
                         <li>
-                            <a href="#" class="text-lg text-black font-normal">Pricing</a>
+                            <a href="/pages/pricing.html" class="text-lg text-black font-normal">Pricing</a>
                         </li>
                         <li>
-                            <a href="articles.html" class="text-lg text-black font-normal">Blog</a>
+                            <a href="/pages/articles.html" class="text-lg text-black font-normal">Blog</a>
                         </li>
                         <li>
                             <a href="#" class="text-lg text-black font-normal">Pages</a>
                         </li>
                         <li>
-                            <a href="#" class="text-lg text-black font-semibold">Login</a>
+                            <a href="/pages/login.html" class="text-lg text-black font-semibold">Login</a>
                         </li>
                     </ul>
                 </div>
-                <a href="/dist/index.html" class="btn btn-ghost md:px-0">
+                <a href="/" class="btn btn-ghost md:px-0">
                     <!-- Logo -->
                     <img src="../assets/icons/atach_logo.png" class="md:w-28 w-20" alt="" />
                 </a>
                 <div class="hidden md:flex">
                     <ul class="menu menu-horizontal px-1">
                         <li>
-                            <a href="/dist/index.html" class="text-lg text-black font-normal">Home</a>
+                            <a href="/index.html" class="text-lg text-black font-normal">Home</a>
                         </li>
                         <li>
-                            <a href="about.html" class="text-lg text-black font-normal">About</a>
+                            <a href="/pages/about.html" class="text-lg text-black font-normal">About</a>
                         </li>
                         <li>
-                            <a href="#" class="text-lg text-black font-normal">Pricing</a>
+                            <a href="/pages/pricing.html" class="text-lg text-black font-normal">Pricing</a>
                         </li>
                         <li>
-                            <a href="articles.html" class="text-lg text-black font-normal">Blog</a>
+                            <a href="/pages/articles.html" class="text-lg text-black font-normal">Blog</a>
                         </li>
                         <li>
                             <a href="#" class="text-lg text-black font-normal">Pages</a>
@@ -75,11 +75,11 @@
             <div class="navbar-end">
                 <ul class="menu menu-horizontal px-1 hidden md:block">
                     <li>
-                        <a href="#" class="lg:mr-10">Login</a>
+                        <a href="/pages/login.html" class="lg:mr-10">Login</a>
                     </li>
                 </ul>
 
-                <a class="at-btn px-3 scale-75 lg:scale-100">Get Started Free</a>
+                <a href="/pages/login.html" class="at-btn px-3 scale-75 lg:scale-100">Get Started Free</a>
             </div>
         </div>
     </header>
@@ -117,7 +117,7 @@
                                 </span>
                             </label>
                         </div>
-                        <a href="/dist/forget-password.html" class="link link-hover link-primary">Forgot password?</a>
+                        <a href="/pages/forget-password.html" class="link link-hover link-primary">Forgot password?</a>
                     </div>
                     <button class="btn btn-primary w-full">Login</button>
                 </form>
@@ -133,7 +133,7 @@
                     Connect with Facebook
                 </button>
                 <p class="text-[#64748B] text-base text-center py-2">Don't have any account? <a
-                        href="/dist/sign-up.html" class="link link-hover link-primary">Create account</a></p>
+                        href="/pages/sign-up.html" class="link link-hover link-primary">Create account</a></p>
             </div>
         </section>
     </main>
@@ -141,20 +141,19 @@
     <footer class="px-3 md:px-5 bg-[#16161D] text-[#818A9C] py-14">
         <div class="footer">
             <div>
-                <img src="../assets/icons/Logo.svg" alt="" />
-                <p class="paragraphLG">
-                    Lorem ipsum dolor sit amet, consectetur adip <br />elit. Posuere
-                    dolor massa, pellentesque.
+                <a href="/"><img src="/assets/icons/Logo.svg" alt=""></a>
+                <p class="paragraphLG">Lorem ipsum dolor sit amet, consectetur adip <br>elit. Posuere dolor massa,
+                    pellentesque.
                 </p>
             </div>
             <div>
                 <span class="footer-title text-white opacity-100 font-medium text-base">Pages</span>
-                <a class="link link-hover">Home</a>
-                <a class="link link-hover">About Us</a>
-                <a class="link link-hover">Pricing</a>
-                <a class="link link-hover">Blogs</a>
-                <a class="link link-hover">Contact</a>
-                <a class="link link-hover">Team</a>
+                <a href="/index.html" class="link link-hover">Home</a>
+                <a href="/pages/about.html" class="link link-hover">About Us</a>
+                <a href="/pages/pricing.html" class="link link-hover">Pricing</a>
+                <a href="/pages/articles.html" class="link link-hover">Blogs</a>
+                <a href="/pages/contact.html" class="link link-hover">Contact</a>
+                <a href="/pages/team.html" class="link link-hover">Team</a>
             </div>
             <div>
                 <span class="footer-title text-white opacity-100 font-medium text-base">Reference Page</span>
@@ -167,14 +166,14 @@
             <div>
                 <span class="footer-title text-white opacity-100 font-medium text-base">Get the app</span>
                 <a class="at-btn-outline">
-                    <img src="../assets/icons/apple_icon.svg" alt="" />
+                    <img src="../assets/icons/apple_icon.svg" alt="">
                     <div class="-ml-1">
                         <p>Download on the</p>
                         <h6>App Store</h6>
                     </div>
                 </a>
                 <a class="at-btn-outline">
-                    <img src="../assets/icons/google_play_icon.svg" alt="" />
+                    <img src="../assets/icons/google_play_icon.svg" alt="">
                     <div>
                         <p>GET IN ON</p>
                         <h6>Google Play</h6>
@@ -183,25 +182,26 @@
             </div>
         </div>
 
+
         <div class="divider mt-16 before:bg-[#45464D] after:bg-[#45464D]"></div>
         <div class="flex sm:flex-row flex-col-reverse gap-5 mx-auto sm:justify-between justify-center items-center">
             <p class="paragraphLG text-center">© 2022 Copyright Atach.com</p>
             <div class="flex gap-4 justify-center">
                 <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
                     href="">
-                    <img src="../assets/icons/social icon/facebook.svg" alt="" />
+                    <img src="../assets/icons/social icon/facebook.svg" alt="">
                 </a>
                 <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
                     href="">
-                    <img src="../assets/icons/social icon/Frame-1.svg" alt="" />
+                    <img src="../assets/icons/social icon/Frame-1.svg" alt="">
                 </a>
                 <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
                     href="">
-                    <img src="../assets/icons/social icon/instagram-fill.svg" alt="" />
+                    <img src="../assets/icons/social icon/instagram-fill.svg" alt="">
                 </a>
                 <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
                     href="">
-                    <img src="../assets/icons/social icon/twitter.svg" alt="" />
+                    <img src="../assets/icons/social icon/twitter.svg" alt="">
                 </a>
             </div>
         </div>
