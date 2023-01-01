@@ -12,10 +12,10 @@
   <title>Home - Atach</title>
 </head>
 
-<body class="max-w-7xl mx-auto">
+<body>
   <!-- Navbar  -->
-  <header>
-    <div class="navbar bg-base-100 fixed top-0 z-50 px-3 md:px-5 max-w-7xl mx-auto">
+  <header class="bg-base-100 top-0 sticky z-50">
+    <div class="navbar bg-base-100 px-3 md:px-5 max-w-7xl mx-auto">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost md:hidden p-0">
@@ -77,7 +77,7 @@
           </li>
         </ul>
 
-        <a href="/pages/login.html" class="at-btn px-3 scale-75 lg:scale-100 ">Get Started Free</a>
+        <a href="/pages/login.html" class="at-btn px-3 scale-75 lg:scale-100">Get Started Free</a>
       </div>
     </div>
   </header>
@@ -85,74 +85,76 @@
   <!-- Main section start -->
   <main>
     <!-- Hero section start -->
-    <section class="hero min-h-screen bg-base-200 pt-20 px-3 md:px-5">
-      <div class="hero-content flex-col md:flex-row-reverse items-center px-0">
-        <div class="md:w-5/12 w-full">
-          <img src="/assets/images/Hero image.png" class="mx-auto" />
-        </div>
-        <div class="md:w-7/12 w-full">
-          <h1 class="lg:text-[56px] md:text-4xl sm:text-2xl text-xl">
-            How to be more productive in a simple, yet effective way
-          </h1>
-          <p class="paragraphSM lg:w-[515px] mt-8 mb-10 pr-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut
-            id nisl tellus rhoncus, imperdiet consequat ornare. Nunc, cursus
-            eget dui, ultricies lacus.
-          </p>
-
-          <div class="flex gap-3 md:gap-5 lg:gap-10">
-            <a class="at-btn-outline">
-              <img src="/assets/icons/apple-gray.svg" alt="">
-
-              <div class="-ml-1">
-                <p>Download on the</p>
-                <h6>App Store</h6>
-              </div>
-            </a>
-            <a class="at-btn-outline">
-              <img src="/assets/icons/google_play_icon.svg" alt="">
-              <div>
-                <p>GET IN ON</p>
-                <h6>Google Play</h6>
-              </div>
-            </a>
+    <section class="bg-base-200">
+      <div class="hero pt-20 px-3 md:px-5 max-w-7xl mx-auto">
+        <div class="hero-content flex-col md:flex-row-reverse items-center px-0">
+          <div class="md:w-1/2 w-full">
+            <img src="/assets/images/Hero image.png" class="mx-auto" />
           </div>
+          <div class="md:w-1/2 w-full">
+            <h1 class="lg:text-[56px] md:text-4xl sm:text-2xl text-xl">
+              How to be more productive in a simple, yet effective way
+            </h1>
+            <p class="paragraphSM lg:w-[515px] mt-8 mb-10 pr-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut
+              id nisl tellus rhoncus, imperdiet consequat ornare. Nunc, cursus
+              eget dui, ultricies lacus.
+            </p>
 
-          <div class="flex mt-[50px] gap-6 ">
-            <div class="avatar-group -space-x-4">
-              <div class="avatar border-[1.5px]">
-                <div class="w-12">
-                  <img
-                    src="https://images.generated.photos/oKp4CGEN80wpAXeQo2tOI6JGXFfnqCv1ixk9yjfivc0/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDk1MTI0LmpwZw.jpg" />
+            <div class="flex gap-3 md:gap-5 lg:gap-10">
+              <a class="at-btn-outline">
+                <img src="/assets/icons/apple-gray.svg" alt="" />
+
+                <div class="-ml-1">
+                  <p>Download on the</p>
+                  <h6>App Store</h6>
                 </div>
-              </div>
-              <div class="avatar border-[1.5px]">
-                <div class="w-12">
-                  <img
-                    src="https://images.generated.photos/fMlhxEryB0ZXWNVvGXU9tPW4orl6edJuWfQYDzLvt0E/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Nzk3NDQ5LmpwZw.jpg" />
+              </a>
+              <a class="at-btn-outline">
+                <img src="/assets/icons/google_play_icon.svg" alt="" />
+                <div>
+                  <p>GET IN ON</p>
+                  <h6>Google Play</h6>
                 </div>
-              </div>
-              <div class="avatar border-[1.5px]">
-                <div class="w-12">
-                  <img
-                    src="https://images.generated.photos/yXQe0b_Pt1yd7iN7AJz2j0lQ5pxgP-VZK3z6VRdI4uU/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODQzOTk4LmpwZw.jpg" />
-                </div>
-              </div>
-              <div class="avatar border-[1.5px]">
-                <div class="w-12">
-                  <img
-                    src="https://images.generated.photos/AT_wZNWdCdE25Z_GgYGSHSvXC4F72-xWTAtIPp1TP1A/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MzA0ODQ0LmpwZw.jpg" />
-                </div>
-              </div>
-              <div class="avatar placeholder border-[1.5px]">
-                <div class="w-12 bg-[#F9F5FF]">
-                  <span class="text-[#7F56D9] text-base font-medium">+5</span>
-                </div>
-              </div>
+              </a>
             </div>
-            <div>
-              <h6 class="text-black">12M+</h6>
-              <p class="paragraphSM">Used the app</p>
+
+            <div class="flex mt-[50px] gap-6">
+              <div class="avatar-group -space-x-4">
+                <div class="avatar border-[1.5px]">
+                  <div class="w-12">
+                    <img
+                      src="https://images.generated.photos/oKp4CGEN80wpAXeQo2tOI6JGXFfnqCv1ixk9yjfivc0/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDk1MTI0LmpwZw.jpg" />
+                  </div>
+                </div>
+                <div class="avatar border-[1.5px]">
+                  <div class="w-12">
+                    <img
+                      src="https://images.generated.photos/fMlhxEryB0ZXWNVvGXU9tPW4orl6edJuWfQYDzLvt0E/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Nzk3NDQ5LmpwZw.jpg" />
+                  </div>
+                </div>
+                <div class="avatar border-[1.5px]">
+                  <div class="w-12">
+                    <img
+                      src="https://images.generated.photos/yXQe0b_Pt1yd7iN7AJz2j0lQ5pxgP-VZK3z6VRdI4uU/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/ODQzOTk4LmpwZw.jpg" />
+                  </div>
+                </div>
+                <div class="avatar border-[1.5px]">
+                  <div class="w-12">
+                    <img
+                      src="https://images.generated.photos/AT_wZNWdCdE25Z_GgYGSHSvXC4F72-xWTAtIPp1TP1A/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MzA0ODQ0LmpwZw.jpg" />
+                  </div>
+                </div>
+                <div class="avatar placeholder border-[1.5px]">
+                  <div class="w-12 bg-[#F9F5FF]">
+                    <span class="text-[#7F56D9] text-base font-medium">+5</span>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <h6 class="text-black">12M+</h6>
+                <p class="paragraphSM">Used the app</p>
+              </div>
             </div>
           </div>
         </div>
@@ -161,11 +163,11 @@
     <!-- Hero section end -->
 
     <!-- Company section start -->
-    <section class="py-20 px-3 md:px-5">
+    <section class="py-20 px-3 md:px-5 max-w-7xl mx-auto">
       <p class="md:paragraphSM text-sm text-center font-bold text-[#667085]">
         Join 4,000+ companies already growing
       </p>
-      <div class="flex justify-evenly mt-8">
+      <div class="flex justify-between mt-8">
         <img class="w-12 md:w-20 lg:w-fit" src="/assets/images/company/Google svg.svg" alt="" />
         <img class="w-12 md:w-20 lg:w-fit" src="/assets/images/company/Facebook svg.svg" alt="" />
         <img class="w-12 md:w-20 lg:w-fit" src="/assets/images/company/YouTube svg.svg" alt="" />
@@ -176,110 +178,113 @@
     <!-- Company section end -->
 
     <!-- productivity Section start -->
-    <section class="bg-base-200 lg:py-28 md:py-16 py-10 px-3 md:px-5">
-      <h2 class="text-center lg:text-5xl sm:text-3xl text-2xl">
-        Boost your productivity <br />
-        with powerful features
-      </h2>
-      <p class="paragraphSM mt-6 text-center lg:w-1/2 md:w-2/3 w-full mx-auto">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet placerat
-        velit ipsum purus maecenas. Nulla morbi nulla a, sapien suspendisse.
-      </p>
-      <div class="lg:mt-20 mt-12 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-12 gap-8">
-        <div
-          class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
-          <div class="card-body p-6">
-            <div class="card-actions justify-start">
-              <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
-                <img src="/assets/icons/prodative icon/cardPic_1.svg" alt="" />
+    <section class="bg-base-200">
+      <div class="lg:py-28 md:py-16 py-10 px-3 md:px-5 max-w-7xl mx-auto">
+        <h2 class="text-center lg:text-5xl sm:text-3xl text-2xl">
+          Boost your productivity <br />
+          with powerful features
+        </h2>
+        <p class="paragraphSM mt-6 text-center lg:w-1/2 md:w-2/3 w-full mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+          placerat velit ipsum purus maecenas. Nulla morbi nulla a, sapien
+          suspendisse.
+        </p>
+        <div class="lg:mt-20 mt-12 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-12 gap-8">
+          <div
+            class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
+            <div class="card-body p-6">
+              <div class="card-actions justify-start">
+                <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
+                  <img src="/assets/icons/prodative icon/cardPic_1.svg" alt="" />
+                </div>
               </div>
+              <h5 class="my-4">Wallet built-in</h5>
+              <p class="paragraphLG">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit
+                placerat maecenas sit quis lacus ultricies facilisis porta vel
+                gravida nis.
+              </p>
             </div>
-            <h5 class="my-4">Wallet built-in</h5>
-            <p class="paragraphLG">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit placerat
-              maecenas sit quis lacus ultricies facilisis porta vel gravida
-              nis.
-            </p>
           </div>
-        </div>
-        <div
-          class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
-          <div class="card-body p-6">
-            <div class="card-actions justify-start">
-              <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
-                <img src="/assets/icons/prodative icon/cardPic_2.svg" alt="" />
+          <div
+            class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
+            <div class="card-body p-6">
+              <div class="card-actions justify-start">
+                <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
+                  <img src="/assets/icons/prodative icon/cardPic_2.svg" alt="" />
+                </div>
               </div>
+              <h5 class="my-4">Send & receive payments</h5>
+              <p class="paragraphLG">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit
+                placerat maecenas sit quis lacus ultricies facilisis porta vel
+                gravida nis.
+              </p>
             </div>
-            <h5 class="my-4">Send & receive payments</h5>
-            <p class="paragraphLG">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit placerat
-              maecenas sit quis lacus ultricies facilisis porta vel gravida
-              nis.
-            </p>
           </div>
-        </div>
-        <div
-          class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
-          <div class="card-body p-6">
-            <div class="card-actions justify-start">
-              <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
-                <img src="/assets/icons/prodative icon/cardPic_3.svg" alt="" />
+          <div
+            class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
+            <div class="card-body p-6">
+              <div class="card-actions justify-start">
+                <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
+                  <img src="/assets/icons/prodative icon/cardPic_3.svg" alt="" />
+                </div>
               </div>
+              <h5 class="my-4">Advanced charts</h5>
+              <p class="paragraphLG">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit
+                placerat maecenas sit quis lacus ultricies facilisis porta vel
+                gravida nis.
+              </p>
             </div>
-            <h5 class="my-4">Advanced charts</h5>
-            <p class="paragraphLG">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit placerat
-              maecenas sit quis lacus ultricies facilisis porta vel gravida
-              nis.
-            </p>
           </div>
-        </div>
-        <div
-          class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
-          <div class="card-body p-6">
-            <div class="card-actions justify-start">
-              <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
-                <img src="/assets/icons/prodative icon/cardPic_4.svg" alt="" />
+          <div
+            class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
+            <div class="card-body p-6">
+              <div class="card-actions justify-start">
+                <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
+                  <img src="/assets/icons/prodative icon/cardPic_4.svg" alt="" />
+                </div>
               </div>
+              <h5 class="my-4">Monthly reports</h5>
+              <p class="paragraphLG">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit
+                placerat maecenas sit quis lacus ultricies facilisis porta vel
+                gravida nis.
+              </p>
             </div>
-            <h5 class="my-4">Monthly reports</h5>
-            <p class="paragraphLG">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit placerat
-              maecenas sit quis lacus ultricies facilisis porta vel gravida
-              nis.
-            </p>
           </div>
-        </div>
-        <div
-          class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
-          <div class="card-body p-6">
-            <div class="card-actions justify-start">
-              <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
-                <img src="/assets/icons/prodative icon/cardPic_5.svg" alt="" />
+          <div
+            class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
+            <div class="card-body p-6">
+              <div class="card-actions justify-start">
+                <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
+                  <img src="/assets/icons/prodative icon/cardPic_5.svg" alt="" />
+                </div>
               </div>
+              <h5 class="my-4">Cards with virtual cards</h5>
+              <p class="paragraphLG">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit
+                placerat maecenas sit quis lacus ultricies facilisis porta vel
+                gravida nis.
+              </p>
             </div>
-            <h5 class="my-4">Cards with virtual cards</h5>
-            <p class="paragraphLG">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit placerat
-              maecenas sit quis lacus ultricies facilisis porta vel gravida
-              nis.
-            </p>
           </div>
-        </div>
-        <div
-          class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
-          <div class="card-body p-6">
-            <div class="card-actions justify-start">
-              <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
-                <img src="/assets/icons/prodative icon/cardPic_6.svg" alt="" />
+          <div
+            class="card cursor-pointer hover:scale-105 duration-300 ease-in-out hover:-translate-y-2 bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)] rounded-2xl max-w-sm mx-auto">
+            <div class="card-body p-6">
+              <div class="card-actions justify-start">
+                <div class="w-16 h-16 bg-[#F7FAFF] flex justify-center items-center rounded-2xl cursor-pointer">
+                  <img src="/assets/icons/prodative icon/cardPic_6.svg" alt="" />
+                </div>
               </div>
+              <h5 class="my-4">Cryptocurrencies</h5>
+              <p class="paragraphLG">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit
+                placerat maecenas sit quis lacus ultricies facilisis porta vel
+                gravida nis.
+              </p>
             </div>
-            <h5 class="my-4">Cryptocurrencies</h5>
-            <p class="paragraphLG">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit placerat
-              maecenas sit quis lacus ultricies facilisis porta vel gravida
-              nis.
-            </p>
           </div>
         </div>
       </div>
@@ -287,13 +292,15 @@
     <!-- productivity Section End -->
 
     <!-- payment sending and receiving section start-->
-    <section class="px-3 md:px-5">
-      <div class="sm:flex gap-x-14 items-center">
+    <div class="px-3 md:px-5 max-w-7xl mx-auto">
+      <div class="sm:flex gap-x-14 items-center justify-between">
         <div class="sm:w-[55%]">
           <img src="/assets/images/Easy payment.svg" alt="" />
         </div>
         <div class="sm:w-[45%]">
-          <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl">Easy payment sending and receiving</h2>
+          <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl">
+            Easy payment sending and receiving
+          </h2>
           <p class="my-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing
             mattis ultrices pellentesque sagittis quam urna.
@@ -312,11 +319,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <!-- payment sending and receiving section end-->
 
     <!-- User dashboard start -->
-    <section class="pb-28 px-3 md:px-5">
+    <section class="pb-28 px-3 md:px-5 max-w-7xl mx-auto">
       <div class="flex sm:flex-row flex-col-reverse gap-x-14 items-center">
         <div class="sm:w-[50%]">
           <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl">
@@ -349,47 +356,47 @@
     <!-- User dashboard end -->
 
     <!-- statistic section start -->
-    <section class="md:pt-28 py-10 bg-primary px-3 md:px-5">
-      <div class="flex sm:flex-row flex-col-reverse items-center">
-        <div class="sm:w-[45%]">
-          <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl text-white ">Find out how long each project took and
-            what data was collected</h2>
-          <p class="paragraphSM my-6 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing
-            mattis ultrices pellentesque sagittis quam urna.</p>
+    <section class="bg-primary">
+      <div class="md:pt-28 py-10 px-3 md:px-5 max-w-7xl mx-auto">
+        <div class="flex sm:flex-row flex-col-reverse items-center">
+          <div class="sm:w-[45%]">
+            <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl text-white">
+              Find out how long each project took and what data was collected
+            </h2>
+            <p class="paragraphSM my-6 text-white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              adipiscing mattis ultrices pellentesque sagittis quam urna.
+            </p>
 
-          <div class="flex sm:gap-x-10 gap-5">
-            <button class="btn rounded-lg px-5 py-3">
-              <img class="h-5" src="/assets/icons/apple_play.svg" alt="">
-            </button>
-            <button class="btn rounded-lg px-5 py-3">
-              <img class="h-5" src="/assets/icons/google_play.svg" alt="">
-            </button>
+            <div class="flex sm:gap-x-10 gap-5">
+              <button class="btn rounded-lg px-5 py-3">
+                <img class="h-5" src="/assets/icons/apple_play.svg" alt="" />
+              </button>
+              <button class="btn rounded-lg px-5 py-3">
+                <img class="h-5" src="/assets/icons/google_play.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <div class="sm:w-[55%]">
+            <img src="/assets/images/statistic.svg" alt="" class="w-[80%] mx-auto" />
           </div>
         </div>
-        <div class="sm:w-[55%]">
-          <img src="/assets/images/statistic.svg" alt="" class="w-[80%] mx-auto" />
-        </div>
-      </div>
       </div>
     </section>
     <!-- statistic section end -->
 
     <!-- Frequently Asked Questions section start -->
-    <section class="my-28 px-3 md:px-5">
+    <section class="my-28 px-3 md:px-5 max-w-7xl mx-auto">
       <div class="text-center">
-        <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl">Frequently Asked Questions</h2>
-        <p class="paragraphSM mt-6 md:w-1/2 w-11/12 mx-auto">Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit
-          adipiscing
-          mattis
-          ultrices
-          pellentesque sagittis quam urna <a href="/pages/contact.html"
-            class=" link link-hover link-primary cursor-pointer">get in
-            touch.</a>
+        <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl">
+          Frequently Asked Questions
+        </h2>
+        <p class="paragraphSM mt-6 md:w-1/2 w-11/12 mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing
+          mattis ultrices pellentesque sagittis quam urna
+          <a href="/pages/contact.html" class="link link-hover link-primary cursor-pointer">get in touch.</a>
         </p>
       </div>
-
-
 
       <div class="my-24 max-w-3xl mx-auto">
         <div class="collapse collapse-plus">
@@ -398,9 +405,11 @@
             Is it possible to request a new feature for Apps?
           </div>
           <div class="collapse-content">
-            <p>Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized
-              30-minute onboarding
-              call to get you up and running as soon as possible.</p>
+            <p>
+              Yes, you can try us for free for 30 days. If you want, we’ll
+              provide you with a free, personalized 30-minute onboarding call
+              to get you up and running as soon as possible.
+            </p>
           </div>
         </div>
         <div class="divider m-0 p-0"></div>
@@ -441,7 +450,8 @@
         <div class="collapse collapse-plus">
           <input type="checkbox" class="peer" />
           <div class="collapse-title text-xl font-medium">
-            How does billing work? </div>
+            How does billing work?
+          </div>
           <div class="collapse-content">
             <p>Hello Atach Users</p>
           </div>
@@ -451,17 +461,15 @@
         <div class="collapse collapse-plus">
           <input type="checkbox" class="peer" />
           <div class="collapse-title text-xl font-medium">
-            How do I change my account email? </div>
+            How do I change my account email?
+          </div>
           <div class="collapse-content">
             <p>Hello Atach Users</p>
           </div>
         </div>
-
       </div>
 
-
       <section class="py-8 bg-base-200 mx-10 text-center flex flex-col justify-center">
-
         <div class="mb-8">
           <div class="avatar">
             <div class="w-12 rounded-full -mr-4">
@@ -483,45 +491,48 @@
           </div>
         </div>
 
-
         <h6 class="text-base">Still have questions?</h6>
-        <p class="paragraphSM mt-2 mb-8">Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
+        <p class="paragraphSM mt-2 mb-8">
+          Can’t find the answer you’re looking for? Please chat to our
+          friendly team.
+        </p>
 
         <a role="button" href="/pages/contact.html" class="at-btn w-fit mx-auto">Get in touch</a>
       </section>
     </section>
     <!-- Frequently Asked Questions section end -->
 
-
-
     <!-- Articles section start -->
-    <section class="px-3 md:px-5">
+    <section class="px-3 md:px-5 max-w-7xl mx-auto">
       <div class="mb-10 text-center">
-        <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl">Articles & Resources</h2>
-        <p class="py-6 md:w-1/2 w-11/12 mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing
-          mattis ultrices
-          pellentesque sagittis quam urna
+        <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl">
+          Articles & Resources
+        </h2>
+        <p class="py-6 md:w-1/2 w-11/12 mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit adipiscing
+          mattis ultrices pellentesque sagittis quam urna
         </p>
         <a href="/pages/articles.html"><button class="at-btn px-8 mx-auto">See All</button></a>
       </div>
 
       <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-12 gap-6">
         <a href="/pages/blog-details.html">
-          <div class="card  max-w-md mx-auto cursor-pointer">
+          <div class="card max-w-md mx-auto cursor-pointer">
             <figure class="">
               <img src="/assets/images/blogs/Blog Image-1.png" alt="Shoes" class="rounded-lg" />
             </figure>
             <div class="card-body px-0">
               <h4 class="">Blog title heading will go here</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros. Suspendisse
-                varius enim .</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros. Suspendisse varius enim .
+              </p>
               <div class="card-actions my-6">
                 <div class="flex items-center gap-4">
                   <div class="avatar">
                     <div class="w-12 rounded-full">
                       <img
                         src="https://images.generated.photos/zDm6WNAATR2-bOBf0_qcZ0vJ2q1e1K1vvXERSxqgrH0/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDMyMDA2LmpwZw.jpg" />
-
                     </div>
                   </div>
                   <div class="">
@@ -534,21 +545,22 @@
           </div>
         </a>
         <a href="/pages/blog-details.html">
-          <div class="card  max-w-md mx-auto cursor-pointer">
+          <div class="card max-w-md mx-auto cursor-pointer">
             <figure class="">
               <img src="/assets/images/blogs/Blog Image-2.png" alt="Shoes" class="rounded-lg" />
             </figure>
             <div class="card-body px-0">
               <h4 class="">Blog title heading will go here</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros. Suspendisse
-                varius enim .</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros. Suspendisse varius enim .
+              </p>
               <div class="card-actions my-6">
                 <div class="flex items-center gap-4">
                   <div class="avatar">
                     <div class="w-12 rounded-full">
                       <img
                         src="https://images.generated.photos/a7swmSp7qFwLqNVU0zJdEijN7AbnB3MVDB5s8nnVeiU/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/OTg2NTE4LmpwZw.jpg" />
-
                     </div>
                   </div>
                   <div class="">
@@ -561,21 +573,22 @@
           </div>
         </a>
         <a href="/pages/blog-details.html">
-          <div class="card  max-w-md mx-auto cursor-pointer">
+          <div class="card max-w-md mx-auto cursor-pointer">
             <figure class="">
               <img src="/assets/images/blogs/Blog Image-3.png" alt="atach blog" class="rounded-lg" />
             </figure>
             <div class="card-body px-0">
               <h4 class="">Blog title heading will go here</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros. Suspendisse
-                varius enim .</p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros. Suspendisse varius enim .
+              </p>
               <div class="card-actions my-6">
                 <div class="flex items-center gap-4">
                   <div class="avatar">
                     <div class="w-12 rounded-full">
                       <img
                         src="https://images.generated.photos/B8q5hgGYHKOrN9ws2GG6uB3t7I-qtx78I0L_MxGzXMk/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjY5MzUzLmpwZw.jpg" />
-
                     </div>
                   </div>
                   <div class="">
@@ -592,13 +605,17 @@
     <!-- Articles section end -->
 
     <!-- Review section start -->
-    <section class="lg:py-28 md:py-20 py-10 flex sm:flex-row flex-col items-center px-3 md:px-5 gap-5">
+    <section
+      class="lg:py-28 md:py-20 py-10 flex sm:flex-row flex-col items-center px-3 md:px-5 gap-5 max-w-7xl mx-auto">
       <div class="sm:w-1/2">
         <div class="max-w-lg mx-auto">
-          <h3 class="lg:text-4xl md:text-2xl sm:text-xl text-lg sm:text-left text-center">See what our clients say</h3>
-          <p class="paragraphLG mb-10 mt-5 sm:text-left text-center lg:w-2/3 ">Our clients say it best. Here’s a small
-            sample of
-            the feedback we get every day.</p>
+          <h3 class="lg:text-4xl md:text-2xl sm:text-xl text-lg sm:text-left text-center">
+            See what our clients say
+          </h3>
+          <p class="paragraphLG mb-10 mt-5 sm:text-left text-center lg:w-2/3">
+            Our clients say it best. Here’s a small sample of the feedback we
+            get every day.
+          </p>
           <a href="/pages/contact.html">
             <button class="at-btn px-7 sm:mx-0 mx-auto">Contact</button>
           </a>
@@ -606,16 +623,17 @@
       </div>
       <div class="sm:w-1/2 w-full">
         <div class="carousel max-w-lg mx-auto bg-base-100 shadow-[0px_32px_64px_-12px_rgba(16,24,40,0.14)]">
-          <div id="slide1" class="carousel-item relative w-full">
-            <div class="card w-full ">
+          <div id="slide1" class="carousel-item relative w-full z-20">
+            <div class="card w-full">
               <div class="card-body">
-                <h2 class="card-title"><img src="/assets/images/facebook.svg" alt=""></h2>
-                <p class="md:w-96  mt-6 mb-14">I needed a valve replaced on my sprinkler system and called around to
-                  several
-                  places.
-                  Cutting Edge
-                  was the only place
-                  that was willing to move things around to get me taken care of as this was somewhat of an emergency.
+                <h2 class="card-title">
+                  <img src="/assets/images/facebook.svg" alt="" />
+                </h2>
+                <p class="md:w-96 mt-6 mb-14">
+                  I needed a valve replaced on my sprinkler system and called
+                  around to several places. Cutting Edge was the only place
+                  that was willing to move things around to get me taken care
+                  of as this was somewhat of an emergency.
                 </p>
                 <div class="card-actions justify-between my-2">
                   <div class="flex items-center gap-4">
@@ -623,7 +641,6 @@
                       <div class="w-12 rounded-full">
                         <img
                           src="https://images.generated.photos/zDm6WNAATR2-bOBf0_qcZ0vJ2q1e1K1vvXERSxqgrH0/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDMyMDA2LmpwZw.jpg" />
-
                       </div>
                     </div>
                     <div class="">
@@ -632,10 +649,18 @@
                     </div>
                   </div>
                   <div class="">
-                    <a href="#slide4" class="btn btn-circle"><span class="material-symbols-outlined">
+                    <a role="button" href="#slide4" class="btn btn-circle btn-primary btn-outline" style="
+                          border: none;
+                          box-shadow: 0px 4.55717px 18.2287px
+                            rgba(31, 36, 50, 0.12);
+                        "><span class="material-symbols-outlined">
                         arrow_back
                       </span></a>
-                    <a href="#slide2" class="btn btn-circle"><span class="material-symbols-outlined">
+                    <a role="button" href="#slide2" class="btn btn-circle btn-primary btn-outline" style="
+                          border: none;
+                          box-shadow: 0px 4.55717px 18.2287px
+                            rgba(31, 36, 50, 0.12);
+                        "><span class="material-symbols-outlined">
                         arrow_forward
                       </span></a>
                   </div>
@@ -644,15 +669,16 @@
             </div>
           </div>
           <div id="slide2" class="carousel-item relative w-full">
-            <div class="card w-full ">
+            <div class="card w-full">
               <div class="card-body">
-                <h2 class="card-title"><img src="/assets/images/facebook.svg" alt=""></h2>
-                <p class="md:w-96 mt-6 mb-14">I needed a valve replaced on my sprinkler system and called around to
-                  several
-                  places.
-                  Cutting Edge
-                  was the only place
-                  that was willing to move things around to get me taken care of as this was somewhat of an emergency.
+                <h2 class="card-title">
+                  <img src="/assets/images/facebook.svg" alt="" />
+                </h2>
+                <p class="md:w-96 mt-6 mb-14">
+                  I needed a valve replaced on my sprinkler system and called
+                  around to several places. Cutting Edge was the only place
+                  that was willing to move things around to get me taken care
+                  of as this was somewhat of an emergency.
                 </p>
                 <div class="card-actions justify-between my-2">
                   <div class="flex items-center gap-4">
@@ -660,7 +686,6 @@
                       <div class="w-12 rounded-full">
                         <img
                           src="https://images.generated.photos/a7swmSp7qFwLqNVU0zJdEijN7AbnB3MVDB5s8nnVeiU/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/OTg2NTE4LmpwZw.jpg" />
-
                       </div>
                     </div>
                     <div class="">
@@ -669,10 +694,18 @@
                     </div>
                   </div>
                   <div class="">
-                    <a href="#slide1" class="btn btn-circle"><span class="material-symbols-outlined">
+                    <a href="#slide1" class="btn btn-circle btn-primary btn-outline" style="
+                          border: none;
+                          box-shadow: 0px 4.55717px 18.2287px
+                            rgba(31, 36, 50, 0.12);
+                        "><span class="material-symbols-outlined">
                         arrow_back
                       </span></a>
-                    <a href="#slide3" class="btn btn-circle"><span class="material-symbols-outlined">
+                    <a href="#slide3" class="btn btn-circle btn-primary btn-outline" style="
+                          border: none;
+                          box-shadow: 0px 4.55717px 18.2287px
+                            rgba(31, 36, 50, 0.12);
+                        "><span class="material-symbols-outlined">
                         arrow_forward
                       </span></a>
                   </div>
@@ -681,15 +714,16 @@
             </div>
           </div>
           <div id="slide3" class="carousel-item relative w-full">
-            <div class="card w-full ">
+            <div class="card w-full">
               <div class="card-body">
-                <h2 class="card-title"><img src="/assets/images/facebook.svg" alt=""></h2>
-                <p class="md:w-96 mt-6 mb-14">I needed a valve replaced on my sprinkler system and called around to
-                  several
-                  places.
-                  Cutting Edge
-                  was the only place
-                  that was willing to move things around to get me taken care of as this was somewhat of an emergency.
+                <h2 class="card-title">
+                  <img src="/assets/images/facebook.svg" alt="" />
+                </h2>
+                <p class="md:w-96 mt-6 mb-14">
+                  I needed a valve replaced on my sprinkler system and called
+                  around to several places. Cutting Edge was the only place
+                  that was willing to move things around to get me taken care
+                  of as this was somewhat of an emergency.
                 </p>
                 <div class="card-actions justify-between my-2">
                   <div class="flex items-center gap-4">
@@ -697,7 +731,6 @@
                       <div class="w-12 rounded-full">
                         <img
                           src="https://images.generated.photos/jje5fjQ8kAEnYtypaF4CiY3_vG7VrL5h9vITGQ4nbHQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MzE1NjQ1LmpwZw.jpg" />
-
                       </div>
                     </div>
                     <div class="">
@@ -706,10 +739,18 @@
                     </div>
                   </div>
                   <div class="">
-                    <a href="#slide2" class="btn btn-circle"><span class="material-symbols-outlined">
+                    <a href="#slide2" class="btn btn-circle btn-primary btn-outline" style="
+                          border: none;
+                          box-shadow: 0px 4.55717px 18.2287px
+                            rgba(31, 36, 50, 0.12);
+                        "><span class="material-symbols-outlined">
                         arrow_back
                       </span></a>
-                    <a href="#slide4" class="btn btn-circle"><span class="material-symbols-outlined">
+                    <a href="#slide4" class="btn btn-circle btn-primary btn-outline" style="
+                          border: none;
+                          box-shadow: 0px 4.55717px 18.2287px
+                            rgba(31, 36, 50, 0.12);
+                        "><span class="material-symbols-outlined">
                         arrow_forward
                       </span></a>
                   </div>
@@ -718,15 +759,16 @@
             </div>
           </div>
           <div id="slide4" class="carousel-item relative w-full">
-            <div class="card w-full ">
+            <div class="card w-full">
               <div class="card-body">
-                <h2 class="card-title"><img src="/assets/images/facebook.svg" alt=""></h2>
-                <p class="md:w-96 mt-6 mb-14">I needed a valve replaced on my sprinkler system and called around to
-                  several
-                  places.
-                  Cutting Edge
-                  was the only place
-                  that was willing to move things around to get me taken care of as this was somewhat of an emergency.
+                <h2 class="card-title">
+                  <img src="/assets/images/facebook.svg" alt="" />
+                </h2>
+                <p class="md:w-96 mt-6 mb-14">
+                  I needed a valve replaced on my sprinkler system and called
+                  around to several places. Cutting Edge was the only place
+                  that was willing to move things around to get me taken care
+                  of as this was somewhat of an emergency.
                 </p>
                 <div class="card-actions justify-between my-2">
                   <div class="flex items-center gap-4">
@@ -734,7 +776,6 @@
                       <div class="w-12 rounded-full">
                         <img
                           src="https://images.generated.photos/B8q5hgGYHKOrN9ws2GG6uB3t7I-qtx78I0L_MxGzXMk/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjY5MzUzLmpwZw.jpg" />
-
                       </div>
                     </div>
                     <div class="">
@@ -743,10 +784,18 @@
                     </div>
                   </div>
                   <div class="">
-                    <a href="#slide3" class="btn btn-circle"><span class="material-symbols-outlined">
+                    <a href="#slide3" class="btn btn-circle btn-primary btn-outline" style="
+                          border: none;
+                          box-shadow: 0px 4.55717px 18.2287px
+                            rgba(31, 36, 50, 0.12);
+                        "><span class="material-symbols-outlined">
                         arrow_back
                       </span></a>
-                    <a href="#slide1" class="btn btn-circle"><span class="material-symbols-outlined">
+                    <a href="#slide1" class="btn btn-circle btn-primary btn-outline" style="
+                          border: none;
+                          box-shadow: 0px 4.55717px 18.2287px
+                            rgba(31, 36, 50, 0.12);
+                        "><span class="material-symbols-outlined">
                         arrow_forward
                       </span></a>
                   </div>
@@ -758,19 +807,16 @@
       </div>
     </section>
     <!-- Review section end -->
-
-
-
-
-
   </main>
 
   <!-- footer -->
-  <footer class="px-3 md:px-5 bg-[#16161D] text-[#818A9C] py-14">
-    <div class="footer">
+  <footer class="bg-[#16161D] text-[#818A9C] py-14">
+    <div class="footer max-w-7xl mx-auto px-3 md:px-5">
       <div>
-        <a href="#"><img src="/assets/icons/Logo.svg" alt=""></a>
-        <p class="paragraphLG">Lorem ipsum dolor sit amet, consectetur adip <br>elit. Posuere dolor massa, pellentesque.
+        <a href="#"><img src="/assets/icons/Logo.svg" alt="" /></a>
+        <p class="paragraphLG">
+          Lorem ipsum dolor sit amet, consectetur adip <br />elit. Posuere
+          dolor massa, pellentesque.
         </p>
       </div>
       <div>
@@ -793,14 +839,14 @@
       <div>
         <span class="footer-title text-white opacity-100 font-medium text-base">Get the app</span>
         <a class="at-btn-outline">
-          <img src="/assets/icons/apple_icon.svg" alt="">
+          <img src="/assets/icons/apple_icon.svg" alt="" />
           <div class="-ml-1">
             <p>Download on the</p>
             <h6>App Store</h6>
           </div>
         </a>
         <a class="at-btn-outline">
-          <img src="/assets/icons/google_play_icon.svg" alt="">
+          <img src="/assets/icons/google_play_icon.svg" alt="" />
           <div>
             <p>GET IN ON</p>
             <h6>Google Play</h6>
@@ -809,26 +855,26 @@
       </div>
     </div>
 
-
-    <div class="divider mt-16 before:bg-[#45464D] after:bg-[#45464D]"></div>
-    <div class="flex sm:flex-row flex-col-reverse gap-5 mx-auto sm:justify-between justify-center items-center">
+    <div class="divider mt-16 before:bg-[#45464D] after:bg-[#45464D] max-w-7xl mx-auto px-3 md:px-5"></div>
+    <div
+      class="flex sm:flex-row flex-col-reverse gap-5 sm:justify-between justify-center items-center max-w-7xl mx-auto px-3 md:px-5">
       <p class="paragraphLG text-center">© 2022 Copyright Atach.com</p>
       <div class="flex gap-4 justify-center">
         <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
           href="">
-          <img src="/assets/icons/social icon/facebook.svg" alt="">
+          <img src="/assets/icons/social icon/facebook.svg" alt="" />
         </a>
         <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
           href="">
-          <img src="/assets/icons/social icon/Frame-1.svg" alt="">
+          <img src="/assets/icons/social icon/Frame-1.svg" alt="" />
         </a>
         <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
           href="">
-          <img src="/assets/icons/social icon/instagram-fill.svg" alt="">
+          <img src="/assets/icons/social icon/instagram-fill.svg" alt="" />
         </a>
         <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
           href="">
-          <img src="/assets/icons/social icon/twitter.svg" alt="">
+          <img src="/assets/icons/social icon/twitter.svg" alt="" />
         </a>
       </div>
     </div>
