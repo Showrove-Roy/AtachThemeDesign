@@ -12,10 +12,10 @@
     <title>Blogs - Atach</title>
 </head>
 
-<body class="max-w-7xl mx-auto">
+<body>
     <!-- Navbar  -->
-    <header>
-        <div class="navbar bg-base-100 fixed top-0 z-50 px-3 md:px-5 max-w-7xl mx-auto">
+    <header class="bg-base-100 top-0 sticky z-50">
+        <div class="navbar bg-base-100 container-main">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost md:hidden p-0">
@@ -86,7 +86,7 @@
 
     <main>
         <!-- Articles title -->
-        <section class="md:pt-32 pt-20 pb-10 text-center px-3 md:px-5">
+        <section class="md:pt-32 pt-20 pb-10 text-center container-main">
             <h1 class="lg:text-[56px] md:text-4xl sm:text-3xl text-2xl">
                 Articles & News
             </h1>
@@ -97,7 +97,7 @@
         </section>
 
         <!-- Articles hero section end -->
-        <section class="px-3 md:px-5 py-10 flex md:flex-row flex-col gap-5 items-center">
+        <section class="container-main py-10 flex md:flex-row flex-col gap-5 items-center">
             <div class="md:w-3/5">
                 <img src="../assets/images/artical hero img.svg" alt="" />
             </div>
@@ -127,7 +127,7 @@
         <!-- Articles hero section end -->
 
         <!-- All Articles section end  -->
-        <section class="px-3 md:px-5 py-20">
+        <section class="container-main py-20">
             <!-- Articles subjects tabs -->
             <div class="flex sm:gap-4 gap-2 items-center sm:justify-start flex-wrap mb-16">
                 <button class="at-btn">View All</button>
@@ -323,28 +323,30 @@
         </section>
         <!-- All Articles section end  -->
         <!-- statistic section start -->
-        <section class="md:pt-20 pt-10 pb-10 bg-primary px-3 md:px-5">
-            <div class="flex sm:flex-row flex-col-reverse items-center">
-                <div class="sm:w-[45%]">
-                    <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl text-white ">Find out how long each project
-                        took and
-                        what data was collected</h2>
-                    <p class="paragraphSM my-6 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        adipiscing
-                        mattis ultrices pellentesque sagittis quam urna.</p>
-                    <div class="flex sm:gap-x-10 gap-5">
-                        <button class="btn rounded-lg px-5 py-3">
-                            <img class="h-5" src="../assets/icons/apple_play.svg" alt="">
-                        </button>
-                        <button class="btn rounded-lg px-5 py-3">
-                            <img class="h-5" src="../assets/icons/google_play.svg" alt="">
-                        </button>
+        <section class="bg-primary">
+            <div class="md:pt-20 pt-10 pb-10 container-main">
+                <div class="flex sm:flex-row flex-col-reverse items-center">
+                    <div class="sm:w-[45%]">
+                        <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl text-white ">Find out how long each
+                            project
+                            took and
+                            what data was collected</h2>
+                        <p class="paragraphSM my-6 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            adipiscing
+                            mattis ultrices pellentesque sagittis quam urna.</p>
+                        <div class="flex sm:gap-x-10 gap-5">
+                            <button class="btn rounded-lg px-5 py-3">
+                                <img class="h-5" src="../assets/icons/apple_play.svg" alt="">
+                            </button>
+                            <button class="btn rounded-lg px-5 py-3">
+                                <img class="h-5" src="../assets/icons/google_play.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sm:w-[55%]">
+                        <img src="../assets/images/statistic.svg" alt="" class="w-[80%] mx-auto" />
                     </div>
                 </div>
-                <div class="sm:w-[55%]">
-                    <img src="../assets/images/statistic.svg" alt="" class="w-[80%] mx-auto" />
-                </div>
-            </div>
             </div>
         </section>
         <!-- statistic section end -->
@@ -355,8 +357,8 @@
 
 
     <!-- footer -->
-    <footer class="px-3 md:px-5 bg-[#16161D] text-[#818A9C] py-14">
-        <div class="footer">
+    <footer class="bg-[#16161D] text-[#818A9C] py-14">
+        <div class="footer container-main">
             <div>
                 <a href="/"><img src="/assets/icons/Logo.svg" alt=""></a>
                 <p class="paragraphLG">Lorem ipsum dolor sit amet, consectetur adip <br>elit. Posuere dolor massa,
@@ -400,8 +402,9 @@
         </div>
 
 
-        <div class="divider mt-16 before:bg-[#45464D] after:bg-[#45464D]"></div>
-        <div class="flex sm:flex-row flex-col-reverse gap-5 mx-auto sm:justify-between justify-center items-center">
+        <div class="divider mt-16 before:bg-[#45464D] after:bg-[#45464D] container-main"></div>
+        <div
+            class="flex sm:flex-row flex-col-reverse gap-5 mx-auto sm:justify-between justify-center items-center container-main">
             <p class="paragraphLG text-center">© 2022 Copyright Atach.com</p>
             <div class="flex gap-4 justify-center">
                 <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
