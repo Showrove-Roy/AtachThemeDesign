@@ -3536,6 +3536,11 @@ h1,
   padding-bottom: 6px;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pb-28 {
   padding-bottom: 7rem;
 }
@@ -4058,6 +4063,11 @@ h1,
     margin-right: 0px;
   }
 
+  .md\:my-36 {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+
   .md\:mt-3 {
     margin-top: 0.75rem;
   }
@@ -4179,6 +4189,16 @@ h1,
   .md\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .md\:py-36 {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .md\:pt-14 {
