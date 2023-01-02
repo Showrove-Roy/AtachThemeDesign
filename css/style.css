@@ -4387,6 +4387,10 @@ h1,
     padding-bottom: 7rem;
   }
 
+  .lg\:pt-24 {
+    padding-top: 6rem;
+  }
+
   .lg\:text-\[52px\] {
     font-size: 52px;
   }
