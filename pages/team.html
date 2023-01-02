@@ -12,10 +12,10 @@
     <title>Team - Atach</title>
 </head>
 
-<body class="max-w-7xl mx-auto">
+<body>
     <!-- Navbar  -->
-    <header class="max-w-7xl">
-        <div class="navbar bg-[#DEEBFF] fixed top-0 z-50 px-3 md:px-5 max-w-7xl mx-auto">
+    <header class="bg-[#DEEBFF] top-0 sticky z-50">
+        <div class="navbar bg-[#DEEBFF] container-main">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost md:hidden p-0">
@@ -87,14 +87,17 @@
     <!-- Team section  start -->
     <main>
         <!-- Team section title and background -->
-        <section class="relative">
-            <img class="absolute top-16 left-0 -z-10" src="../assets/images/about-bg-shap-1.svg" alt="" />
-            <img class="absolute top-16 left-0 -z-10" src="../assets/images/about-bg-shap-2.svg" alt="" />
-            <div class="lg:pt-32 md:pt-28 sm:pt-24 pt-20 px-3 md:px-5">
+        <section class="relative 2xl:pb-80 md:pb-52 sm:pb-40 pb-32 overflow-hidden ">
+            <img class="absolute lg:left-0 lg:scale-100 sm:scale-[1.3] scale-[2.2] -z-10"
+                src="../assets/images/about-bg-shap-1.svg" alt="" />
+            <img class="absolute lg:left-0 lg:scale-100 sm:scale-[1.3] scale-[2.2] -z-10"
+                src="../assets/images/about-bg-shap-2.svg" alt="" />
+            <div class="2xl:pt-32 lg:pt-20 md:pt-14 sm:pt-14 pt-8 container-main">
                 <h1 class="text-center lg:text-[52px] md:text-5xl sm:text-4xl text-2xl">
                     Our Team
                 </h1>
-                <p class="text-center lg:mt-4 md:mt-3 mt-2 lg:w-1/3 md:w-2/3 sm:w-9/12 mx-auto">
+                <p
+                    class="text-center lg:mt-4 md:mt-3 mt-2 lg:w-1/3 md:w-2/3 sm:w-1/2 w-11/12 mx-auto text-sm md:text-base ">
                     Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
                     eiusmod tempor incididunt ut
                 </p>
@@ -103,7 +106,7 @@
 
 
         <!-- Meet Our Team section start -->
-        <section class="px-3 md:px-5 lg:py-28 md:py-20 sm:py-16 py-10 mt-28">
+        <section class="container-main md:pb-20 sm:pb-16 pb-10">
             <h2 class="lg:text-5xl md:text-3xl text-2xl text-center">
                 Meet Our Team
             </h2>
@@ -435,28 +438,30 @@
 
 
         <!-- statistic section start -->
-        <section class="md:pt-20 pt-10 pb-10 bg-primary px-3 md:px-5">
-            <div class="flex sm:flex-row flex-col-reverse items-center">
-                <div class="sm:w-[45%]">
-                    <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl text-white ">Find out how long each project
-                        took and
-                        what data was collected</h2>
-                    <p class="paragraphSM my-6 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                        adipiscing
-                        mattis ultrices pellentesque sagittis quam urna.</p>
-                    <div class="flex sm:gap-x-10 gap-5">
-                        <button class="btn rounded-lg px-5 py-3">
-                            <img class="h-5" src="../assets/icons/apple_play.svg" alt="">
-                        </button>
-                        <button class="btn rounded-lg px-5 py-3">
-                            <img class="h-5" src="../assets/icons/google_play.svg" alt="">
-                        </button>
+        <section class="bg-primary">
+            <div class="md:pt-20 pt-10 pb-10 container-main">
+                <div class="flex sm:flex-row flex-col-reverse items-center">
+                    <div class="sm:w-[45%]">
+                        <h2 class="lg:text-5xl md:text-3xl sm:text-2xl text-xl text-white ">Find out how long each
+                            project
+                            took and
+                            what data was collected</h2>
+                        <p class="paragraphSM my-6 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            adipiscing
+                            mattis ultrices pellentesque sagittis quam urna.</p>
+                        <div class="flex sm:gap-x-10 gap-5">
+                            <button class="btn rounded-lg px-5 py-3">
+                                <img class="h-5" src="../assets/icons/apple_play.svg" alt="">
+                            </button>
+                            <button class="btn rounded-lg px-5 py-3">
+                                <img class="h-5" src="../assets/icons/google_play.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sm:w-[55%]">
+                        <img src="../assets/images/statistic.svg" alt="" class="w-[80%] mx-auto" />
                     </div>
                 </div>
-                <div class="sm:w-[55%]">
-                    <img src="../assets/images/statistic.svg" alt="" class="w-[80%] mx-auto" />
-                </div>
-            </div>
             </div>
         </section>
         <!-- statistic section end -->
@@ -469,8 +474,8 @@
 
 
     <!-- footer -->
-    <footer class="px-3 md:px-5 bg-[#16161D] text-[#818A9C] py-14">
-        <div class="footer">
+    <footer class="bg-[#16161D] text-[#818A9C] py-14">
+        <div class="footer container-main">
             <div>
                 <a href="/"><img src="/assets/icons/Logo.svg" alt=""></a>
                 <p class="paragraphLG">Lorem ipsum dolor sit amet, consectetur adip <br>elit. Posuere dolor massa,
@@ -514,8 +519,9 @@
         </div>
 
 
-        <div class="divider mt-16 before:bg-[#45464D] after:bg-[#45464D]"></div>
-        <div class="flex sm:flex-row flex-col-reverse gap-5 mx-auto sm:justify-between justify-center items-center">
+        <div class="divider mt-16 before:bg-[#45464D] after:bg-[#45464D] container-main"></div>
+        <div
+            class="flex sm:flex-row flex-col-reverse gap-5 mx-auto sm:justify-between justify-center items-center container-main">
             <p class="paragraphLG text-center">© 2022 Copyright Atach.com</p>
             <div class="flex gap-4 justify-center">
                 <a class="w-12 h-12 flex justify-center items-center bg-[#07090D] rounded-full border border-[#1B212C] hover:scale-110 duration-300 ease-in-out"
