@@ -59,7 +59,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 16px;
+    padding: 16px 12px;
     gap: 20px;
     background: #0066ff;
     border-radius: 8px;
@@ -108,5 +108,20 @@
 
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  }
+
+  .container-main {
+    max-width: 80rem !important;
+    margin: 0 auto !important;
+    padding-left: 1.25rem !important;
+    padding-right: 1.25rem !important;
+
+  }
+
+  @media (max-width: 768px) {
+    .container-main {
+      padding-left: 0.75rem !important;
+      padding-right: 0.75rem !important;
+    }
   }
 }
